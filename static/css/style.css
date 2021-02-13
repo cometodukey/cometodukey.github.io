@@ -1,0 +1,46 @@
+body {
+    line-height: 1;
+    background-color: #EEEEEE;
+    color: black;
+
+    padding: 24pt 5%;
+    width: 800px;
+    margin: auto;
+
+    font-family: monospace;
+    font-size: 16px;
+    font-style: normal;
+}
+
+ul {
+    font-style: normal;
+    list-style-position: inside;
+    line-height: 2em;
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+body > header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10pt 0 7pt 0;
+}
+body > header nav li {
+    display: inline-block;
+    margin-right: 2pt;
+}
+
+footer {
+    border-top: 1px solid grey;
+    font-size: 14px;
+    padding: 0.5em 0px;
+}
